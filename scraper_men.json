@@ -1,25 +1,25 @@
 {
-"office": {
-"HKFP": "hongkongfp",
-"明周文化": "mpweekly",
-"獨立媒體": "inmediahk",
-"和你報": "whatsnewsmedia"
-},
-"options": {
-"HKFP": {
-"文章": "posts",
-"作者": "users"
-},
-"明周文化": {
-"文章": "posts",
-"作者": "users"
-},
-"獨立媒體": {
-"文章": "posts",
-"作者": "users"
-},
-"和你報": {
-"文章": "posts"
-}
-}
+  "office": {
+    "HKFP": "hongkongfp",
+    "明周文化": "mpweekly",
+    "獨立媒體": "inmediahk",
+    "和你報": "whatsnewsmedia"
+  },
+  "options": {
+    "HKFP": {
+      "文章": "posts",
+      "作者": "users"
+    },
+    "明周文化": {
+      "文章": "posts",
+      "作者": "users"
+    },
+    "獨立媒體": {
+      "文章": "posts",
+      "作者": "users"
+    },
+    "和你報": {
+      "文章": "posts"
+    }
+  }
 }
