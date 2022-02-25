@@ -1,20 +1,19 @@
-import io, os, sys, json, requests, shutil, time
-from pytube import YouTube
+import io, os, sys, json, requests, youtube_dl, shutil, time
 import PySimpleGUI as sg
 from pytube.streams import Stream
-# from random_user_agent.user_agent import UserAgent
-# from random_user_agent.params import SoftwareName, OperatingSystem
+from random_user_agent.user_agent import UserAgent
+from random_user_agent.params import SoftwareName, OperatingSystem
 
-# software_names = [SoftwareName.CHROME.value]
-# operating_systems = [OperatingSystem.WINDOWS.value, OperatingSystem.LINUX.value]   
-# user_agent_rotator = UserAgent(software_names=software_names, operating_systems=operating_systems, limit=100)
-# user_agent = user_agent_rotator.get_random_user_agent()
+software_names = [SoftwareName.CHROME.value]
+operating_systems = [OperatingSystem.WINDOWS.value, OperatingSystem.LINUX.value]   
+user_agent_rotator = UserAgent(software_names=software_names, operating_systems=operating_systems, limit=100)
+user_agent = user_agent_rotator.get_random_user_agent()
 
 Apptitle = '香港長故'
 sg.theme('SystemDefault')
 
 headers = {
-    # 'User-Agent': user_agent,
+    'User-Agent': user_agent,
     'Content-Type': 'application/json'
 }
 payload = {}
@@ -78,15 +77,25 @@ def img_downloader(post_id, savdir, FileName, dw_url):
         pass
 
 
-def video_downloader(post_id, sav_dir, SavFileName, dw_url):
-    if dw_url is not None:
-        try:
-            yt = YouTube(dw_url)
-        except:
-            print("!!!Error: Video Remove By Uploader")
+def video_downloader(post_id, sav_dir, FileName, dw_url):
+    dwn_url = str(dw_url).replace('https://www.youtube.com/embed/', 'https://www.youtube.com/watch?v=')
+    with youtube_dl.YoutubeDL(payload) as ydl:
+        meta_data = ydl.extract_info(dwn_url, download=False)
+        video_title = meta_data.get('title', None)
+    # json.dump(meta_data, sav_dir + post_id + '_' + FileName + '.json', ensure_ascii=False, indent=4)
+    
+    ydl_opts = {
+        'format': 'bestvideo/best',
+        'noplaylist': True,
+        'outtmpl': sav_dir + FileName + '_' + video_title + '.%(ext)s',
+    }
+    
+    # responser = requests.get(dwn_url, headers=headers, data=payload)
+    # ts = responser.status_code()
+    # responser.close()
         
-        yt.streams.filter(progressive=True, file_extension="mp4").get_highest_resolution().download(sav_dir, filename=post_id+'_'+yt.title)
-        pass
+    with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+        ydl.download([dwn_url])
 
 def main():
     while True:
