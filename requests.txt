@@ -1,0 +1,6 @@
+requests[socks]
+shutil
+PySimpleGUI
+random_user_agent
+PySimpleGUI
+numpy
