@@ -130,7 +130,6 @@ def my_hook(d):
     if d['status'] == 'error':
         print(d['status'])
     if d['status'] == 'downloading':
-        # window['res_dp'].update('')
         print(d['status'])
 
 def video_downloader(post_id, sav_dir, FileName, dw_url):
