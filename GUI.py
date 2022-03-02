@@ -1,10 +1,10 @@
-import io, os, sys, json, requests, youtube_dl, shutil, threading, time
+import io, os, sys, json, requests, youtube_dl, shutil, time
 import PySimpleGUI as sg
 # from random_user_agent.user_agent import UserAgent
 # from random_user_agent.params import SoftwareName, OperatingSystem
 
 # software_names = [SoftwareName.CHROME.value, SoftwareName.FIREFOX.value]
-# operating_systems = [OperatingSystem.WINDOWS.value, OperatingSystem.MAC.value, OperatingSystem.LINUX.value]
+# operating_systems = [OperatingSystem.WINDOWS.value, OperatingSystem.LINUX.value]
 # user_agent_rotator = UserAgent(software_names=software_names, operating_systems=operating_systems, limit=100)
 # user_agent = user_agent_rotator.get_random_user_agent()
 
@@ -34,8 +34,8 @@ class pre_options():
         opts_lst = menu_loads['options']
         menu_req.close()
     else:
-        sg.popup('Server Error - 系統問題\n請通知@HKIGBot')    
-
+        sg.popup('Server Error - 系統問題\n請通知@HKIGBot')
+        
 layout = [
         [sg.Text('媒體'), sg.Combo(list(pre_options.offic_lst), enable_events=True, key='office', size=(40, 5))],
         [sg.Text('類型'), sg.Combo(['圖片', '影片'], key='opts', size=(15, 5)), sg.Button('全自動備份', key='start_btn'), sg.Button('停止', key='stop_btn')],
@@ -123,11 +123,11 @@ def img_downloader(post_id, savdir, FileName, dw_url):
 
 def my_hook(d):
     if d['status'] == 'finished':
-        print('Done downloading, now converting ...')
+        print('Done downloading, Do not close windows File Are Uploading...')
     if d['status'] == 'error':
         print(d['status'])
     if d['status'] == 'downloading':
-        window['res_dp'].update(values=d['status'])
+        print(d['status'])
 
 def video_downloader(post_id, sav_dir, FileName, dw_url):
     video_id = str(dw_url).replace('https://www.youtube.com/embed/', '')
@@ -135,17 +135,16 @@ def video_downloader(post_id, sav_dir, FileName, dw_url):
     
     ytdl_opts = {
         'format': '(bestvideo[ext=mp4][fps>30]/bestvideo[ext=mp4])+bestaudio[ext=m4a]',
+        'nocheckcertificate': True,
         # 'User-Agent': user_agent,
         # 'download_archive': sav_dir + post_id + '_%(id)s_%(title)s.%(ext)s',
         # 'prefer_ffmpeg': True,
         'hls_prefer_native': True,
         'merge_output_format': 'mp4',
-        'nocheckcertificate': True,
         'writeinfojson': True,
         'noplaylist': False,
         'cachedir': False,
         'newline': True,
-        'continuedl': True,
         'external_downloader': 'wget',
         'outtmpl': sav_dir + post_id + '_%(id)s_%(title)s.%(ext)s',
         'progress_hooks': [my_hook],
