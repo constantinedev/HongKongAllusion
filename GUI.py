@@ -1,19 +1,19 @@
-import io, os, sys, json, requests, youtube_dl, shutil, time
+import io, os, sys, json, requests, youtube_dl, shutil, threading, time
 import PySimpleGUI as sg
-from random_user_agent.user_agent import UserAgent
-from random_user_agent.params import SoftwareName, OperatingSystem
+# from random_user_agent.user_agent import UserAgent
+# from random_user_agent.params import SoftwareName, OperatingSystem
 
-software_names = [SoftwareName.CHROME.value, SoftwareName.FIREFOX.value]
-operating_systems = [OperatingSystem.WINDOWS.value, OperatingSystem.MAC.value, OperatingSystem.LINUX.value]
-user_agent_rotator = UserAgent(software_names=software_names, operating_systems=operating_systems, limit=100)
-user_agent = user_agent_rotator.get_random_user_agent()
+# software_names = [SoftwareName.CHROME.value, SoftwareName.FIREFOX.value]
+# operating_systems = [OperatingSystem.WINDOWS.value, OperatingSystem.MAC.value, OperatingSystem.LINUX.value]
+# user_agent_rotator = UserAgent(software_names=software_names, operating_systems=operating_systems, limit=100)
+# user_agent = user_agent_rotator.get_random_user_agent()
 
 Apptitle = '香港長故'
 sg.theme('SystemDefault')
 
 payload = {}
 headers = {
-    'User-Agent': user_agent,
+    # 'User-Agent': user_agent,
     'Content-Type': 'application/json'
 }
 
@@ -25,6 +25,7 @@ session.proxies['https'] = 'socks5h://localhost:9050'
 MENU_JSON = 'https://raw.githubusercontent.com/constantinedev/HongKongAllusion/main/dwn_menu.json'
 
 class pre_options():
+    DataDir = 'resultes'
     menu_req = session.get(MENU_JSON, headers=headers, data=payload)
     if menu_req.status_code == 200:
         menu_res = menu_req.text
@@ -33,13 +34,7 @@ class pre_options():
         opts_lst = menu_loads['options']
         menu_req.close()
     else:
-        sg.popup('Server Error - 系統問題\n請通知@HKIGBot')
-    
-    DataDir = 'resultes'
-    if not os.path.exists(DataDir):
-        os.mkdir('resultes')
-    else:
-        pass
+        sg.popup('Server Error - 系統問題\n請通知@HKIGBot')    
 
 layout = [
         [sg.Text('媒體'), sg.Combo(list(pre_options.offic_lst), enable_events=True, key='office', size=(40, 5))],
@@ -78,6 +73,8 @@ def main():
                 SELLST = "IMGLST"
             elif opt == 'videos':
                 SELLST = "VIDEOLST"
+            elif opt == None:
+                sg.popup('!!!未選取下載類別!!!')
                 
             APIURI = "http://s3dlmo7jdfo2pe32t7mqtnbq4k3v7unk37nas3po544k2zvxgsj5juqd.onion/apis/dwnreq.php?offic=" + offic + "&type_opts=" + SELLST
             
@@ -130,7 +127,7 @@ def my_hook(d):
     if d['status'] == 'error':
         print(d['status'])
     if d['status'] == 'downloading':
-        print(d['status'])
+        window['res_dp'].update(values=d['status'])
 
 def video_downloader(post_id, sav_dir, FileName, dw_url):
     video_id = str(dw_url).replace('https://www.youtube.com/embed/', '')
@@ -138,7 +135,7 @@ def video_downloader(post_id, sav_dir, FileName, dw_url):
     
     ytdl_opts = {
         'format': '(bestvideo[ext=mp4][fps>30]/bestvideo[ext=mp4])+bestaudio[ext=m4a]',
-        'User-Agent': user_agent,
+        # 'User-Agent': user_agent,
         # 'download_archive': sav_dir + post_id + '_%(id)s_%(title)s.%(ext)s',
         # 'prefer_ffmpeg': True,
         'hls_prefer_native': True,
@@ -148,7 +145,8 @@ def video_downloader(post_id, sav_dir, FileName, dw_url):
         'noplaylist': False,
         'cachedir': False,
         'newline': True,
-        'external_downloader': 'C:/Users/user/Applications/aria2c/aria2c.exe -x8',
+        'continuedl': True,
+        'external_downloader': 'wget',
         'outtmpl': sav_dir + post_id + '_%(id)s_%(title)s.%(ext)s',
         'progress_hooks': [my_hook],
     }
