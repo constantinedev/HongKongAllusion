@@ -10,5 +10,3 @@
 # --external-downloader aria2c
 # External Downlaoder Settings
 # --external-downloader-args -x16 
-
--o str(sav_dir) + str(post_id) + str('_%(id)s_%(title)s.%(ext)s')
