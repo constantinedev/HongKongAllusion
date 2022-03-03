@@ -152,7 +152,7 @@ def video_downloader(post_id, sav_dir, FileName, dw_url):
 
     try:
         with youtube_dl.YoutubeDL(ytdl_opts) as ydl:
-            metaData = ydl.extract_info(dwn_url, download=True)
+            metaData = ydl.extract_info(dwn_url, download=False)
             video_title = metaData.get('title', None)
             print("DOWNLOADING: " + video_title)
             
