@@ -5,7 +5,7 @@
 # Skip HTTS-SSL
 --no-check-certificate
 # Output Formate
---format '(bestvideo[ext=mp4][fps>30]/bestvideo[ext=mp4])+bestaudio[ext=m4a]'
+--format 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best'
 # External Downlaoder (aria2c,avconv,axel,curl,ffmpeg,httpie,wget)
 # --external-downloader ffmpeg
 # External Downlaoder Settings
