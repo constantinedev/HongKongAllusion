@@ -1,11 +1,5 @@
 # Lines starting with # are comments
 
-# Always extract audio
-#-x
-
-# Do not copy the mtime
---no-mtime
-
 # Write JSON meta data
 --write-info-json
 # Skip HTTS-SSL
@@ -13,6 +7,8 @@
 # Output Formate
 --format '(bestvideo[ext=mp4][fps>30]/bestvideo[ext=mp4])+bestaudio[ext=m4a]'
 # External Downlaoder (aria2c,avconv,axel,curl,ffmpeg,httpie,wget)
---external-downloader aria2c
+# --external-downloader aria2c
 # External Downlaoder Settings
 # --external-downloader-args -x16 
+
+-o str(sav_dir) + str(post_id) + str('_%(id)s_%(title)s.%(ext)s')
