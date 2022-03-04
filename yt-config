@@ -1,6 +1,10 @@
 # Lines starting with # are comments
 --no-mtime
 --continue
+--no-cache-dir
+--rm-cache-dir
+--quiet
+--console-title
 
 # Write JSON meta data
 --write-info-json
@@ -12,3 +16,5 @@
 --external-downloader aria2c
 # External Downlaoder Settings
 # --external-downloader-args -x16 
+
+--merge-output-format mkv
