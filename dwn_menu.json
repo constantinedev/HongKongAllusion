@@ -3,21 +3,9 @@
     "獨立媒體": "inmediahk"
   },
   "options": {
-    "HKFP": {
-      "圖片": "photos",
-      "影片": "videos"
-    },
-    "明周文化": {
-      "圖片": "photos",
-      "影片": "videos"
-    },
     "獨立媒體": {
       "圖片": "photos",
       "影片": "videos"
     },
-    "和你報": {
-      "圖片": "photos",
-      "影片": "videos"
-    }
   }
 }
