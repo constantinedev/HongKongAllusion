@@ -4,8 +4,6 @@
 --yes-playlist
 --no-cache-dir
 --rm-cache-dir
---quiet
---console-title
 
 --prefer-insecure
 # Skip HTTS-SSL
