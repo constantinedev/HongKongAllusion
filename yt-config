@@ -6,10 +6,10 @@
 --quiet
 --console-title
 
-# Write JSON meta data
---write-info-json
 # Skip HTTS-SSL
 --no-check-certificate
+# Write JSON meta data
+--write-info-json
 # Output Formate
 --format 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best'
 # External Downlaoder (aria2c,avconv,axel,curl,ffmpeg,httpie,wget)
