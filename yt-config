@@ -1,5 +1,5 @@
 # Lines starting with # are comments
-
+--no-mtime
 --continue
 
 # Write JSON meta data
