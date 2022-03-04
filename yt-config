@@ -9,7 +9,7 @@
 
 --prefer-insecure
 # Skip HTTS-SSL
-# --no-check-certificate
+--no-check-certificate
 
 # Write JSON meta data
 --write-info-json
