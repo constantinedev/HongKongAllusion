@@ -18,9 +18,9 @@
 --format 'best[ext=mp4]/best'
 
 # External Downlaoder (aria2c,avconv,axel,curl,ffmpeg,httpie,wget)
---external-downloader aria2c
+--external-downloader ffmpeg
 
 # External Downlaoder Settings
---external-downloader-args '-x16' 
+# --external-downloader-args '-x16' 
 
 # --merge-output-format mkv
