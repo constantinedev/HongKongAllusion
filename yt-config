@@ -7,6 +7,6 @@
 # Output Formate
 --format 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best'
 # External Downlaoder (aria2c,avconv,axel,curl,ffmpeg,httpie,wget)
---external-downloader wget
+--external-downloader aria2c
 # External Downlaoder Settings
 # --external-downloader-args -x16 
