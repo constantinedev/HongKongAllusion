@@ -1,5 +1,7 @@
 # Lines starting with # are comments
 
+--continue
+
 # Write JSON meta data
 --write-info-json
 # Skip HTTS-SSL
