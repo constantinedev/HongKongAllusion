@@ -14,7 +14,7 @@
 --write-info-json
 
 # Output Formate
---format 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best'
+--format 'best[ext=mp4]/best'
 
 # External Downlaoder (aria2c,avconv,axel,curl,ffmpeg,httpie,wget)
 --external-downloader curl
