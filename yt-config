@@ -1,6 +1,7 @@
 # Lines starting with # are comments
 --no-mtime
 --continue
+--yes-playlist
 --no-cache-dir
 --rm-cache-dir
 --quiet
@@ -8,12 +9,16 @@
 
 # Skip HTTS-SSL
 --no-check-certificate
+
 # Write JSON meta data
 --write-info-json
+
 # Output Formate
 --format 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best'
+
 # External Downlaoder (aria2c,avconv,axel,curl,ffmpeg,httpie,wget)
 --external-downloader curl
+
 # External Downlaoder Settings
 # --external-downloader-args -x16 
 
