@@ -18,7 +18,7 @@
 --format '(bestvideo[ext=mp4][fps>30]/bestvideo[ext=mp4])+bestaudio[ext=m4a]'
 
 # External Downlaoder (aria2c,avconv,axel,curl,ffmpeg,httpie,wget)
---external-downloader aria2c
+--external-downloader 'aria2c'/'curl'
 --external-downloader curl
 --external-downloader ffmpeg
 --external-downloader wget
