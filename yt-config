@@ -4,7 +4,8 @@
 --yes-playlist
 --no-cache-dir
 --rm-cache-dir
-
+--restrict-filenames
+--no-color
 --newline
 
 # Skip HTTS-SSL
