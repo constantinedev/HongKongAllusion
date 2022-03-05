@@ -7,7 +7,6 @@
 
 --newline
 
---prefer-insecure
 # Skip HTTS-SSL
 --no-check-certificate
 
