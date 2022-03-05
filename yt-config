@@ -5,6 +5,8 @@
 --no-cache-dir
 --rm-cache-dir
 
+--newline
+
 --prefer-insecure
 # Skip HTTS-SSL
 --no-check-certificate
