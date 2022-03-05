@@ -4,7 +4,6 @@
 --yes-playlist
 --no-cache-dir
 --rm-cache-dir
---restrict-filenames
 --no-color
 --newline
 
@@ -19,9 +18,9 @@
 --format '(bestvideo[ext=mp4][fps>30]/bestvideo[ext=mp4])+bestaudio[ext=m4a]'
 
 # External Downlaoder (aria2c,avconv,axel,curl,ffmpeg,httpie,wget)
---external-downloader aria2c
+--external-downloader ffmpeg
 
 # External Downlaoder Settings
---external-downloader-args -x10
+# --external-downloader-args -x10
 
 # --merge-output-format mkv
