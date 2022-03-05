@@ -13,6 +13,7 @@
 
 # Write JSON meta data
 --write-info-json
+--write-description
 
 # Output Formate
 --format '(bestvideo[ext=mp4][fps>30]/bestvideo[ext=mp4])+bestaudio[ext=m4a]'
