@@ -21,6 +21,6 @@
 --external-downloader aria2c
 
 # External Downlaoder Settings
---external-downloader-args -x16
+# --external-downloader-args -x16
 
 # --merge-output-format mkv
