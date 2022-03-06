@@ -6,6 +6,7 @@
 --rm-cache-dir
 --no-color
 --newline
+--abort-on-unavailable-fragment
 
 # Skip HTTS-SSL
 --no-check-certificate
