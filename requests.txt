@@ -1,6 +1,11 @@
+cython
+psutil
+PySimpleGUI
 requests[socks]
+youtube-dl
 shutil
 PySimpleGUI
 random_user_agent
-PySimpleGUI
+setuptools
 numpy
+internetarchive
