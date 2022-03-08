@@ -1,0 +1,21 @@
+{
+  "office": {
+    "蘋果日報": "appledaily",
+    "立場新聞": "thestandnews",
+    "眾新聞": "hkcnews"
+  },
+  "options": {
+    "蘋果日報": {
+      "圖片": "photos",
+      "影片": "videos"
+    },
+    "立場新聞": {
+      "圖片": "photos",
+      "影片": "videos"
+    },
+    "眾新聞": {
+      "圖片": "photos",
+      "影片": "videos"
+    }
+  }
+}
