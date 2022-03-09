@@ -7,15 +7,18 @@
   "options": {
     "蘋果日報": {
       "圖片": "photos",
-      "影片": "videos"
+      "影片": "videos",
+      "文本": "docs"
     },
     "立場新聞": {
       "圖片": "photos",
-      "影片": "videos"
+      "影片": "videos",
+      "文本": "docs"
     },
     "眾新聞": {
       "圖片": "photos",
-      "影片": "videos"
+      "影片": "videos",
+      "文本": "docs"
     }
   }
 }
