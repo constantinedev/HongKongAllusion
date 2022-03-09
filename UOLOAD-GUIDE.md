@@ -5,7 +5,7 @@
 Before your donwload or execute the .EXE file<br>
 you must install the Pyhton3 uper version, <br>
 Only for the first time. click Donwload link to check for you system.<br>
-[We recommand the 32-bit [Download Python](https://www.python.org/downloads/https://)]
+[We recommand the 32-bit [Download Python](https://www.python.org/downloads/)]
 
 #### Install Python (WINDOWS):
 
