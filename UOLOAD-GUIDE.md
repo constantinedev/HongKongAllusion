@@ -33,13 +33,13 @@ Let run the Program.....
 
 # USAGE OF THE [UPLOADER]
 
-We know you need more userfriendy.
-
-You want faster.
-You want privacy.
+We know you need more userfriendy.<br>
+You want faster.<br>
+You want privacy.<br>
 Here we are packing the "ONE BUTTON" program to you.
-Any thing update message should show on the [說明] button.
-And you still have a question or any idea of revolution program.
+
+Any thing update message should show on the [說明] button.<br>
+And you still have a question or any idea of revolution program.<br>
 Content with Telegram bot [@HKIGBot](https://t.me/HKIGbot)
 
 #### FAQ
