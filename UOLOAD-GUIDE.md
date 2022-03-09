@@ -10,22 +10,22 @@ Only for the first time. click Donwload link to check for you system.<br>
 #### Install Python (WINDOWS):
 
 > **(1) INSTALLATION:**
-> ✔ Add Python 3.x to PATH
-> Select [Customize installation] >>⏭
-> **(2) INSTALL REQUEST(s):**
-> ❓ [Documentation] (Options Select)
-> ✔ [pip]
-> ✔ [tcl/tk and IDLE]
-> ✔ [Python test suite]
-> NEXT >> ⏭
-> ✔ [Install for all user]
-> ✔️ [Associate file with python (requires the py launcher)]
-> ❌ [Create shortcuts for installed applications]
-> ✔️ [App Python to encironment variables]
-> ✔️ [Precompile standard library]
-> ❓ [Download debugging symbols] (Options Select)
-> ✔️ [Download debug binaries (requires VS 20xx or later)]
-> **(3) INSTALL:**
+> ✔ Add Python 3.x to PATH<br>
+> Select [Customize installation] >>⏭<br>
+> **(2) INSTALL REQUEST(s):**<br>
+> ❓ [Documentation] (Options Select)<br>
+> ✔ [pip]<br>
+> ✔ [tcl/tk and IDLE]<br>
+> ✔ [Python test suite]<br>
+> NEXT >> ⏭<br>
+> ✔ [Install for all user]<br>
+> ✔️ [Associate file with python (requires the py launcher)]<br>
+> ❌ [Create shortcuts for installed applications]<br>
+> ✔️ [App Python to encironment variables]<br>
+> ✔️ [Precompile standard library]<br>
+> ❓ [Download debugging symbols] (Options Select)<br>
+> ✔️ [Download debug binaries (requires VS 20xx or later)]<br>
+> **(3) INSTALL:**<br>
 > Install ⏭>> 👑 DONE!
 
 Congratations you have setup the python as well.
