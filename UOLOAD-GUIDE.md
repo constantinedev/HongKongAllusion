@@ -1,4 +1,4 @@
-# #Ops - HONG KONG ALLUSION - 香港掌故
+# #Ops - HONG KONG ANECDOTE - 香港掌故
 
 #### Uplaoder Program Setup
 
