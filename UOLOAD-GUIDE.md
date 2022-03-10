@@ -112,3 +112,8 @@ Q: I have the file without your options.
 > 1) Same upload with the uploader but choose [文本] for other formate data file.
 >    You can see it after the sync [archive.org](https://archive.org/details/@constantinedev)
 > 2) You can repost your problem to [@HKIGBot](https://t.me/HKIGbot) and make more support.
+
+Q: I have the file with different OS platform, GUI only on Windows?
+
+> We will keep update and release different version on cross platform.
+> Yes waiting for the update or request [@HKIGBot](https://t.me/HKIGbot) to get the console version.
