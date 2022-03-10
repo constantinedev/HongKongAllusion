@@ -1,8 +1,8 @@
 # #Ops - HONG KONG ALLUSION - 香港長故
-![image](https://user-images.githubusercontent.com/1324252/157594577-df659b55-d0b8-4615-a07f-b7c8d2be9393.png)
 
 #### Uplaoder Program Setup
 
+![image](https://user-images.githubusercontent.com/1324252/157594577-df659b55-d0b8-4615-a07f-b7c8d2be9393.png)<br>
 Before your donwload or execute the .EXE file<br>
 you must install the Pyhton3 uper version, <br>
 Only for the first time. click Donwload link to check for you system.<br>
@@ -37,7 +37,9 @@ Let run the Program.....
 We know you need more userfriendy.<br>
 You want faster.<br>
 You want privacy.<br>
-Here we are packing the "ONE BUTTON" program to you.
+Here we are packing the "ONE BUTTON" program to you.<br>
+
+Help Video: [YouTube](https://www.youtube.com/watch?v=dSwR7EPHEfA)<br>
 
 Any thing update message should show on the [說明] button.<br>
 And you still have a question or any idea of revolution program.<br>
