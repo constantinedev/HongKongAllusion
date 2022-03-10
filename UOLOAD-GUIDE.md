@@ -31,7 +31,7 @@ Only for the first time. click Donwload link to check for you system.<br>
 
 Congratations you have setup the python as well.<br>
 Let run the Program.....<br>
-## [DOWNLOAD UPLOADER](https://github.com/constantinedev/HongKongAllusion/releases/download/%E9%A6%99%E6%B8%AF%E9%95%B7%E6%95%85%E4%B8%8A%E8%BC%89%E5%B7%A5%E5%85%B7/HK-ALLUSION-UPLOADER-v0-1-release.exe)
+## [DOWNLOAD UPLOADER](https://github.com/constantinedev/HongKongAllusion/releases/download/%E9%A6%99%E6%B8%AF%E6%8E%8C%E6%95%85%E4%B8%8A%E8%BC%89%E5%B7%A5%E5%85%B7/HK-ANECDOTE-UPLOADER-v0-1-release.exe)
 
 # USAGE OF THE [UPLOADER]
 
