@@ -4,7 +4,6 @@ PySimpleGUI
 requests[socks]
 youtube-dl
 shutil
-PySimpleGUI
 random_user_agent
 setuptools
 numpy
