@@ -40,7 +40,7 @@ You want faster.<br>
 You want privacy.<br>
 Here we are packing the "ONE BUTTON" program to you.<br>
 
-Help Video: [YouTube](https://www.youtube.com/watch?v=dSwR7EPHEfA)<br>
+Help Video: [YouTube]()<br>
 
 Any thing update message should show on the [說明] button.<br>
 And you still have a question or any idea of revolution program.<br>
