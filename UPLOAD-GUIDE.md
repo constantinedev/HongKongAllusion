@@ -3,6 +3,13 @@
 #### Uplaoder Program Setup
 
 ![GUI](https://user-images.githubusercontent.com/1324252/158201342-d8fe6e5f-0187-464e-88e4-2f5a0e9af56b.png)<br>
+Follow The setp:<br>
+1️ Select The Directory/Folder to upload all file inside.<br>
+2️ Select The Media of your date for.<br>
+3️ If you can. Plz follow our file format type to pack yout date before.<br>
+4️ Start Upload. If start non stop.<br>
+5️ View more about this Tools support.(Tor network only)<br>
+
 Before your donwload or execute the .EXE file<br>
 you must install the Pyhton3 uper version, <br>
 Only for the first time. click Donwload link to check for you system.<br>
