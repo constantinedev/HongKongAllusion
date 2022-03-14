@@ -2,7 +2,7 @@
 
 #### Uplaoder Program Setup
 
-![image](https://user-images.githubusercontent.com/1324252/157685050-bb6d8d58-4ac5-472a-8615-1be9f55591cd.png)<br>
+![GUI](https://user-images.githubusercontent.com/1324252/158199873-b25dcffa-8fd6-453f-b413-68234d3b239c.png)<br>
 Before your donwload or execute the .EXE file<br>
 you must install the Pyhton3 uper version, <br>
 Only for the first time. click Donwload link to check for you system.<br>
