@@ -10,7 +10,7 @@ Follow The setp:<br>
 4️ Start Upload. If start non stop.<br>
 5️ View more about this Tools support.(Tor network only)<br>
 
-[YouTube - Video](https://www.youtube.com/embed/FxTjUIdfN08)
+[YouTube - Video](https://www.youtube.com/watch?v=FxTjUIdfN08)
 
 Before your donwload or execute the .EXE file<br>
 you must install the Pyhton3 uper version, <br>
