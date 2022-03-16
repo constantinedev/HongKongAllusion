@@ -10,7 +10,7 @@
 4️⃣ Start Upload. If start non stop.<br>
 5️⃣ View more about this Tools support.(Tor network only)<br>
 
-[YouTube - Video](https://www.youtube.com/watch?v=FxTjUIdfN08)
+[YouTube - Video](https://www.youtube.com/watch?v=FxTjUIdfN08&t=90s)
 
 ## Uplaoder Program Setup
 
