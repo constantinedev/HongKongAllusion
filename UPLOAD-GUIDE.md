@@ -1,8 +1,21 @@
+# **DOWNLOADER OUTPUT GUIDE**
+
 # #Ops - HONG KONG ANECDOTE - 香港掌故
 
 ![GUI](https://user-images.githubusercontent.com/1324252/158201342-d8fe6e5f-0187-464e-88e4-2f5a0e9af56b.png)<br>
 
-<h2>Follow The setp:</h2>
+# USAGE OF THE [UPLOADER]
+
+We know you need more userfriendy.<br>
+You want faster.<br>
+You want privacy.<br>
+Here we are packing the "ONE BUTTON" program to you.<br>
+
+Help Video: [YouTube]()<br>
+
+Any thing update message should show on the [說明] button.<br>
+And you still have a question or any idea of revolution program.<br>
+Content with Telegram bot [@HKIGBot
 
 1️⃣ Select The Directory/Folder to upload all file inside.<br>
 2️⃣ Select The Media of your date for.<br>
@@ -42,21 +55,10 @@ Only for the first time. click Donwload link to check for you system.<br>
 
 Congratations you have setup the python as well.<br>
 Let run the Program.....<br>
+
 ## [DOWNLOAD WIN UPLOADER](https://github.com/constantinedev/HongKongAllusion/releases/download/%E9%A6%99%E6%B8%AF%E6%8E%8C%E6%95%85%E4%B8%8A%E8%BC%89%E5%B7%A5%E5%85%B7/WIN-HK-ANECDOTE-UPLOADER-32-v0-1-release.exe)
+
 ## [DOWNLOAD LINUX UPLOADER](https://github.com/constantinedev/HongKongAllusion/releases/download/%E9%A6%99%E6%B8%AF%E6%8E%8C%E6%95%85%E4%B8%8A%E8%BC%89%E5%B7%A5%E5%85%B7/LINUX-HK-ANECDOTE-UPLOADER-64-v0-1-release.default)
-
-# USAGE OF THE [UPLOADER]
-
-We know you need more userfriendy.<br>
-You want faster.<br>
-You want privacy.<br>
-Here we are packing the "ONE BUTTON" program to you.<br>
-
-Help Video: [YouTube]()<br>
-
-Any thing update message should show on the [說明] button.<br>
-And you still have a question or any idea of revolution program.<br>
-Content with Telegram bot [@HKIGBot](https://t.me/HKIGbot)
 
 #### FAQ
 
@@ -108,7 +110,7 @@ Q: I think I have upload something wrong can I remove a few file(s)?
 
 > No you can't do it.
 > If you think you have upload with any careless mistake.
-> Stop the program ASAP and edit your folder to upload again. 
+> Stop the program ASAP and edit your folder to upload again.
 > Any other happen you can FAQ Telegram bot [@HKIGBot](https://t.me/HKIGbot)
 
 Q: I have pack the data in different folder/dir what can I do?
@@ -132,4 +134,5 @@ Q: I have the file with different OS platform, GUI only on Windows?
 > Yes waiting for the update or request [@HKIGBot](https://t.me/HKIGbot) to get the console version.
 
 ## DONATIONS
-https://www.paypal.com/pools/c/8I7Fdn4ZR6
+
+https://www.paypal.com/pools/c/8I7Fdn4ZR
