@@ -1,5 +1,3 @@
-# **DOWNLOADER OUTPUT GUIDE**
-
 # #Ops - HONG KONG ANECDOTE - 香港掌故
 
 ![GUI](https://user-images.githubusercontent.com/1324252/158201342-d8fe6e5f-0187-464e-88e4-2f5a0e9af56b.png)<br>
