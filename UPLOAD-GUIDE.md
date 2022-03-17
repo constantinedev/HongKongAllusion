@@ -130,3 +130,6 @@ Q: I have the file with different OS platform, GUI only on Windows?
 
 > We will keep update and release different version on cross platform.
 > Yes waiting for the update or request [@HKIGBot](https://t.me/HKIGbot) to get the console version.
+
+## DONATIONS
+https://www.paypal.com/pools/c/8I7Fdn4ZR6
