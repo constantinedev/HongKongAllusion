@@ -1,11 +1,15 @@
 {
   "office": {
-    "獨立媒體": "inmediahk"
+    "獨立媒體": "inmediahk",
+    "HKFP": "hongkongfp"
   },
   "options": {
     "獨立媒體": {
       "圖片": "photos",
       "影片": "videos"
-    }
+    },
+    "HKFP": {
+      "圖片": "photos",
+      "影片": 'videos"
   }
 }
