@@ -9,23 +9,33 @@
   "options": {
     "HKFP": {
       "文章": "posts",
-      "作者": "users"
+      "作者": "users",
+      "分類": "categories",
+      "TAG": "tags"
     },
     "明周文化": {
       "文章": "posts",
-      "作者": "users"
+      "作者": "users",
+      "分類": "categories",
+      "TAG": "tags"
     },
     "獨立媒體": {
       "文章": "posts",
-      "作者": "users"
+      "作者": "users",
+      "分類": "categories",
+      "TAG": "tags"
     },
     "和你報": {
       "文章": "posts",
-      "作者": "users"
+      "作者": "users",
+      "分類": "categories",
+      "TAG": "tags"
     },
     "法庭線": {
       "文章": "posts",
-      "作者": "users"
+      "作者": "users",
+      "分類": "categories",
+      "TAG": "tags"
     }
   }
 }
