@@ -35,12 +35,6 @@
       "作者": "users",
       "分類": "categories",
       "TAG": "tags"
-    },
-    "追新聞": {
-      "文章": "posts",
-      "作者": "users",
-      "分類": "categories",
-      "TAG": "tags"
     }
   }
 }
