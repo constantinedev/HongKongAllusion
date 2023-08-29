@@ -4,7 +4,8 @@
     "明周文化": "mpweekly",
     "獨立媒體": "inmediahk",
     "和你報": "whatsnewsmedia",
-    "法庭線": "thewitnesshk"
+    "法庭線": "thewitnesshk",
+    "追新聞": "thechasernews",
   },
   "options": {
     "獨立媒體": {
@@ -30,6 +31,12 @@
       "TAG": "tags"
     },
     "法庭線": {
+      "文章": "posts",
+      "作者": "users",
+      "分類": "categories",
+      "TAG": "tags"
+    },
+    "追新聞": {
       "文章": "posts",
       "作者": "users",
       "分類": "categories",
