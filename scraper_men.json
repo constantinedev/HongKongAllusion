@@ -7,7 +7,7 @@
     "法庭線": "thewitnesshk",
     "追新聞": "thechasernews",
     "光傳媒": "photonmedia",
-    "棱角": "pointsmedia",
+    "棱角": "pointsmedia"
   },
   "options": {
     "獨立媒體": {
@@ -55,6 +55,6 @@
       "作者": "users",
       "分類": "categories",
       "TAG": "tags"
-    },
+    }
   }
 }
